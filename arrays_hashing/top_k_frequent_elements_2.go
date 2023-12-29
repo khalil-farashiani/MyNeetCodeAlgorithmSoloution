@@ -62,5 +62,5 @@ func topKFrequent(nums []int, k int) []int {
 
 //https://leetcode.com/problems/top-k-frequent-elements
 func main() {
-	fmt.Printf("%v", topKFrequent([]int{1, 2}, 2))
+	fmt.Printf("%v", topKFrequent([]int{1,1,2,2,,3,5,8, 2}, 2))
 }
